@@ -3,6 +3,7 @@
 echo "Running vpnup script"
 source /config/.startingenv
 env
+DELUGE_LOGGING=${DELUGE_LOGGING:info}
 
 #iptables -A OUTPUT -d localhost -j ACCEPT
 
